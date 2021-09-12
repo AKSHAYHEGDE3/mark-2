@@ -14,7 +14,7 @@ const queans =[
         ans : "goku"
     },
     {
-        que : "name of monster inside yuji itadori ",
+        que : "name of monster inside yuji itadori: ",
         ans : "sakuna"
     },
     {
@@ -33,8 +33,10 @@ function start(){
     const watch = readlineSync.keyInYN("do you watch anime?:press y if yess ");
      if(watch){
          console.log("great !")
+         console.log('now answer few of my Ques')
      } else{
          console.log("ypu should try it , i bet you will enjoy!")
+         console.log('now answer few of my Ques')
      }
 }
 
